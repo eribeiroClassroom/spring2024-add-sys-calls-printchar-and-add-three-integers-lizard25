@@ -1,6 +1,6 @@
-os161-Kernel-Src-Add-System-Call-Assignment
+# os161-Kernel-Src-Add-System-Call-Assignment
 
-Base kernel suitable for Assignment on adding system calls
+## Base kernel suitable for Assignment on adding system calls
 
 This repository is the src folder of OS/161. This src/ is especially designed for this assignment. 
 Clone this repository from inside ~/os161 so it exists at the same level of the already existing src/ directory. 
