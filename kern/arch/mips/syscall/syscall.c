@@ -115,11 +115,13 @@ syscall(struct trapframe *tf)
 	    break;
 
 	    /* Add stuff here */
-
-
-
-
-
+	    case SYS_printchar:
+		err = sys_printchar(tf->tf_a0);
+		break;
+	    
+	    case SYS_add3:
+		err = sys_add3(tf->tf_a0, tf->tf_a1, tf->tf_a2, &retval);
+		break;
 
 		
 	    default:
