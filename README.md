@@ -94,4 +94,5 @@ int main(){
 
 #### Screenshots of test programs of system calls
 
-Include your screenshots here ... 
+![printchar](image_2024-02-26_201819129.png)
+![add3](image_2024-02-26_221744661.png)
